@@ -1,5 +1,6 @@
 {
     "name": "namelesscoder/typo3-cms-fluid-gap",
+    "license": ["LGPL-3.0"],
     "autoload": {
         "psr-4": {
             "NamelessCoder\\FluidGapFiller\\": "src/"
