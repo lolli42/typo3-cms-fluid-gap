@@ -2,11 +2,10 @@
     "name": "namelesscoder/typo3-cms-fluid-gap",
     "autoload": {
         "psr-4": {
-            "NamelessCoder\\FluidGapFiller": "src/"
+            "NamelessCoder\\FluidGapFiller\\": "src/"
         }
     },
     "require": {
-        "typo3fluid/fluid": "dev-master as 1.0.10",
-        "typo3/cms": "^8.3"
+        "typo3/cms": "^7.6"
     }
 }
