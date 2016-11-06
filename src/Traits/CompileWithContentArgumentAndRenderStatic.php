@@ -50,7 +50,7 @@ trait CompileWithContentArgumentAndRenderStatic {
         } else {
             $renderChildrenClosure = call_user_func_array(array($this, 'buildRenderChildrenClosure'), array());
         }
-        return self::renderStatic(
+        return static::renderStatic(
             $arguments,
             $renderChildrenClosure,
             $this->renderingContext

@@ -21,7 +21,7 @@ trait CompileWithRenderStatic {
      * @api
      */
     public function render() {
-        return self::renderStatic(
+        return static::renderStatic(
             $this->arguments,
             call_user_func_array(array($this, 'buildRenderChildrenClosure'), array()),
             $this->renderingContext
