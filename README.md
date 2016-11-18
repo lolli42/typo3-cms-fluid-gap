@@ -91,7 +91,7 @@ An example of a proper implementation working on TYPO3 CMS 7.6 and 8.x but regis
 usage when running on TYPO3 CMS 8.x:
 
 ```php
-namespae My\Extension\ViewHelpers;
+namespace My\Extension\ViewHelpers;
 
 class MySpecialViewHelper implements \TYPO3\CMS\Fluid\Core\ViewHelper\CompilableInterface
 {    
